@@ -16,7 +16,7 @@ function Navbar() {
     <div>
       <nav className="navbar navbar-expand-lg bg-body-tertiary shadow">
         <div className="container-fluid">
-          <Link className="navbar-brand-active nav-link" to="/Home"><ImageCompt image={image}/></Link>
+          <Link className="navbar-brand-active nav-link" to="/><ImageCompt image={image}/></Link>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
@@ -25,7 +25,7 @@ function Navbar() {
              
              <div className='d-flex mx-auto justify-content-center'>
             <li className="nav-item">
-                <Link className="nav-link" to='/Home'>Home</Link>
+                <Link className="nav-link" to='/'>Home</Link>
               </li>
 
               <li className="nav-item">
